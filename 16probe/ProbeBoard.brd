@@ -252,7 +252,7 @@
 <text x="59.944" y="9.652" size="0.6096" layer="22" font="vector" rot="SMR270" align="center">SDA</text>
 <text x="59.944" y="7.747" size="0.6096" layer="22" font="vector" rot="SMR270" align="center">+5V</text>
 <text x="59.944" y="5.842" size="0.6096" layer="22" font="vector" rot="SMR270" align="center">COM</text>
-<text x="62.865" y="0.635" size="0.6096" layer="21" font="vector" align="bottom-right">rev. 1.2b</text>
+<text x="62.865" y="0.635" size="0.6096" layer="21" font="vector" align="bottom-right">v0.1 (16)</text>
 </plain>
 <libraries>
 <library name="wirepad" urn="urn:adsk.eagle:library:412">

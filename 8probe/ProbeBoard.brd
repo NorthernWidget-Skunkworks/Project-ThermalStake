@@ -268,7 +268,7 @@
 <wire x1="21.59" y1="4.953" x2="21.59" y2="5.588" width="0.1524" layer="22"/>
 <wire x1="21.59" y1="7.62" x2="21.59" y2="6.985" width="0.1524" layer="22"/>
 <text x="21.717" y="6.35" size="0.6096" layer="22" font="vector" rot="MR180" align="center">+5V</text>
-<text x="62.865" y="0.635" size="0.6096" layer="21" font="vector" align="bottom-right">rev. 1.2a</text>
+<text x="62.865" y="0.635" size="0.6096" layer="21" font="vector" align="bottom-right">v0.1 (8)</text>
 </plain>
 <libraries>
 <library name="wirepad" urn="urn:adsk.eagle:library:412">
