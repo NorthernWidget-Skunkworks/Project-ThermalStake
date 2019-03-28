@@ -3231,16 +3231,6 @@ Switches electronic signals</description>
 <attribute name="PRICE" value="0.03717"/>
 </part>
 <part name="U$60" library="MyPOW" deviceset="COM" device=""/>
-<part name="TEMP8-5V1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
-<part name="TEMP16" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
-<part name="U$61" library="MyPOW" deviceset="+5V" device=""/>
-<part name="R27" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="2.2k">
-<attribute name="DIGIKEY_PART_NUMBER" value="P2.2KDBTR-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB222V"/>
-<attribute name="PRICE" value="0.03717"/>
-</part>
-<part name="U$62" library="MyPOW" deviceset="COM" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3923,53 +3913,53 @@ Switches electronic signals</description>
 <label x="-38.1" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CH9" class="0">
+<net name="CH14" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="CH15"/>
+<wire x1="27.94" y1="109.22" x2="33.02" y2="109.22" width="0.1524" layer="91"/>
+<label x="33.02" y="109.22" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CH8" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="CH9"/>
 <wire x1="-33.02" y1="109.22" x2="-38.1" y2="109.22" width="0.1524" layer="91"/>
 <label x="-38.1" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CH10" class="0">
+<net name="CH9" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="CH10"/>
 <wire x1="-33.02" y1="106.68" x2="-38.1" y2="106.68" width="0.1524" layer="91"/>
 <label x="-38.1" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CH11" class="0">
+<net name="CH10" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="CH11"/>
 <wire x1="-33.02" y1="104.14" x2="-38.1" y2="104.14" width="0.1524" layer="91"/>
 <label x="-38.1" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CH12" class="0">
+<net name="CH11" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="CH12"/>
 <wire x1="27.94" y1="101.6" x2="33.02" y2="101.6" width="0.1524" layer="91"/>
 <label x="33.02" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CH13" class="0">
+<net name="CH12" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="CH13"/>
 <wire x1="27.94" y1="104.14" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
 <label x="33.02" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CH14" class="0">
+<net name="CH13" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="CH14"/>
 <wire x1="27.94" y1="106.68" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
 <label x="33.02" y="106.68" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="CH15" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="CH15"/>
-<wire x1="27.94" y1="109.22" x2="33.02" y2="109.22" width="0.1524" layer="91"/>
-<label x="33.02" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -4635,26 +4625,6 @@ Switches electronic signals</description>
 <attribute name="VALUE" x="263.398" y="6.35" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="U$60" gate="G$1" x="266.7" y="-7.62" smashed="yes"/>
-<instance part="TEMP8-5V1" gate="1" x="294.64" y="22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="292.7858" y="21.717" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="297.942" y="21.717" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="TEMP16" gate="1" x="302.26" y="22.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="304.1142" y="24.003" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="298.958" y="24.003" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="U$61" gate="G$1" x="294.64" y="38.1" smashed="yes">
-<attribute name="VALUE" x="292.1" y="40.64" size="1.778" layer="96"/>
-</instance>
-<instance part="R27" gate="G$1" x="302.26" y="2.54" smashed="yes" rot="R270">
-<attribute name="DIGIKEY_PART_NUMBER" x="302.26" y="2.54" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" x="302.26" y="2.54" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="302.26" y="2.54" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="PRICE" x="302.26" y="2.54" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="NAME" x="303.7586" y="6.35" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="298.958" y="6.35" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="U$62" gate="G$1" x="302.26" y="-7.62" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -4735,11 +4705,6 @@ Switches electronic signals</description>
 <pinref part="TEMP7-5V1" gate="1" pin="P"/>
 <wire x1="259.08" y1="35.56" x2="259.08" y2="25.4" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="U$61" gate="G$1" pin="+5V"/>
-<pinref part="TEMP8-5V1" gate="1" pin="P"/>
-<wire x1="294.64" y1="35.56" x2="294.64" y2="25.4" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="COM" class="0">
 <segment>
@@ -4816,11 +4781,6 @@ Switches electronic signals</description>
 <pinref part="U$60" gate="G$1" pin="COM"/>
 <pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="-5.08" x2="266.7" y2="-2.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$62" gate="G$1" pin="COM"/>
-<pinref part="R27" gate="G$1" pin="2"/>
-<wire x1="302.26" y1="-5.08" x2="302.26" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CH0" class="0">
@@ -4986,17 +4946,6 @@ Switches electronic signals</description>
 <wire x1="266.7" y1="12.7" x2="274.32" y2="12.7" width="0.1524" layer="91"/>
 <junction x="266.7" y="12.7"/>
 <label x="274.32" y="12.7" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="CH15" class="0">
-<segment>
-<pinref part="TEMP16" gate="1" pin="P"/>
-<pinref part="R27" gate="G$1" pin="1"/>
-<wire x1="302.26" y1="20.32" x2="302.26" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="12.7" x2="302.26" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="12.7" x2="309.88" y2="12.7" width="0.1524" layer="91"/>
-<junction x="302.26" y="12.7"/>
-<label x="309.88" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
